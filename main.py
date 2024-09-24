@@ -1,6 +1,5 @@
-name = "Denis"
-print (name * 5 )
-print (name [-1])
-print (name [0:3])
-print (name [0:3:2])
-print (name [0:5:2])
+a = '12'
+b = '1,5'
+c = "Python"
+d = '0,125'
+print ("Курс:", c , ", всего задач: ", a , "затрачено часов:", b , ", среднее время выполнения ,", d , "часа. " )

@@ -27,7 +27,10 @@
 
 #Set: {1, 'Яблоко', 42.314}
 #Modified set: {'Яблоко', 42.314, 13, (5, 6, 1.6)}
-my_dict = {"Denis": 1998, "Richard": 1996, "Smit": 1995}
+#my_dict = {"Denis": 1998, "Richard": 1996, "Smit": 1995}
+my_dict = {}
+my_dict.update({"Kamila": 1994, "Serg": 1993})
+
 print("Dict: " + str(my_dict) )
 print("Existing value: " + str(my_dict["Richard"]))
 print("Not existing value: " + str(my_dict.get("Kamila")))

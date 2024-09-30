@@ -1,4 +1,4 @@
-immutable_var = ([10, 20, 30, 40, 50],"an","be","ci", True)
+immutable_var = ([10, 20, 30, 40, 50],"an","be","ci")
 print("Незменяемый объект 'Кортеж':" + str(immutable_var))
 print(type(immutable_var))
 print('Кортеж (tuple) не поддерживает обращение по элементам\n')
